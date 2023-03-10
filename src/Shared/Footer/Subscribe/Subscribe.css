@@ -1,0 +1,20 @@
+.input-subscribe {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 0px;
+    border-bottom: 2px;
+    border-color: #CCCCCC;
+    color: #ffffff;
+    border-style: solid;
+}
+.input-subscribe:focus {
+    outline:none;
+    border-color: rgb(255, 97, 5);
+    transition-duration: 500ms;  
+}
+.input-subscribe::placeholder{
+    color: #c6c6c6;
+}
+.border-color{
+    border:2px solid #ffffff2c;
+}

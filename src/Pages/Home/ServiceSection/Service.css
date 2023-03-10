@@ -1,0 +1,16 @@
+.w-service-img{
+    width: 85px;
+    /* background-color: rgba(124, 230, 191, 0.184);
+    background-size: calc(2); */
+}
+.bg-section{
+    background-color: rgba(249, 174, 87, 0.124);
+}
+
+.p-service{
+    padding: 100px 0px 100px 0px;
+}
+.service-btn:hover{
+    transition-duration: 500ms;
+    color: rgb(255, 97, 5);    
+}

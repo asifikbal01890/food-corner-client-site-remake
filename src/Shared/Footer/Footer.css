@@ -1,0 +1,45 @@
+.bg-footer{
+    background-color: rgb(47, 57, 66);
+}
+.text-footer{
+    color: rgb(195, 208, 220);
+}
+.bg-orange{
+    background-color: orangered ;
+}
+
+.text-orange{
+    color: rgb(255, 97, 5);
+}
+
+.pl-50{
+    padding-left: 5%;
+}
+
+.me-50{
+    margin-right: 5%;
+}
+
+.w-10{
+    width: 60px;
+    height: 50px;
+}
+
+.m-back{
+    margin-left: -15px;
+}
+
+.custom-nav-button{
+    transition-timing-function: ease-in-out;
+    border-bottom: 5px solid white;
+}
+
+.custom-nav-button:hover{
+    border-bottom: 5px solid orangered;
+    transition-duration: 500ms;
+    color: orangered;    
+}
+
+.f-corner{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
