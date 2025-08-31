@@ -15,7 +15,7 @@ const FoodsCard = ({ foodItem }) => {
                     <img src={img} className="card-img-top" alt="..." />
                 </div>
                 <div className='button-div d-flex justify-content-end align-items-end'>
-                    <div data-aos="fade-up" className='button-group d-flex justify-content-end align-items-end gap-4'>
+                    <div className='button-group d-flex justify-content-end align-items-end gap-4'>
                         <div><Link to={'/'}><button className='icon-button d-flex justify-content-center align-items-center border-0'><BiHeart></BiHeart></button></Link></div>
                         <div><Link to={'/'}><button className='icon-button d-flex justify-content-center align-items-center border-0'><BsThreeDots></BsThreeDots></button></Link></div>
                         <div><Link to={`/foods/${_id}`}><button className='icon-button d-flex justify-content-center align-items-center border-0'><TbDetails></TbDetails></button></Link></div>

@@ -28,7 +28,7 @@ const ServiceSection = () => {
     ]
 
     return (
-        <div data-aos="fade-right" className='bg-section p-service'>
+        <div className='bg-section p-service'>
             <div className='text-center container'>
                 <h2 className='text-orange fw-bold f-corner'>Our Amazing Services</h2>
                 <p>Get a 40% discount on your next feast by watching this video</p>

@@ -5,7 +5,7 @@ import './EventCard.css'
 const EventCard = ({ blog }) => {
     const { eventDate, eventMonth, header, posterName, _id } = blog;
     return (
-        <div data-aos="fade-left">
+        <div>
             <div className="card mb-3 border-0 bg-transparent">
                 <div className="card-body text-center">
                     <div className='w-event bg-danger mx-auto text-white d-flex align-items-center justify-content-center'>

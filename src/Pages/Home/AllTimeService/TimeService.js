@@ -4,7 +4,7 @@ import './TimeService.css';
 const TimeService = ({item}) => {
     const {header, img, paragraph} = item
     return (
-        <div data-aos="fade-up" className="col">
+        <div className="col">
         <div className="card bg-transparent border-0 text-center">
             <img src={img} className="card-img-top w-time mx-auto" alt="..." />
             <div className="card-body">

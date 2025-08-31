@@ -5,7 +5,7 @@ import './Service.css';
 const Service = ({service}) => {
     const {header, img, describe} = service;
     return (
-            <div data-aos="fade-up" className="col">
+            <div className="col">
                 <div className="card bg-transparent border-0">
                     <img src={img} className="card-img-top w-service-img mx-auto" alt="..." />
                     <div className="card-body">

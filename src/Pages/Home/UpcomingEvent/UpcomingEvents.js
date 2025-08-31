@@ -16,7 +16,7 @@ const UpcomingEvents = () => {
     })
 
     return (
-        <div data-aos="fade-right" className='bg-event'>
+        <div className='bg-event'>
             <div className='py-5 mt-5'>
                 <div>
                     <div className='text-center pt-3'>

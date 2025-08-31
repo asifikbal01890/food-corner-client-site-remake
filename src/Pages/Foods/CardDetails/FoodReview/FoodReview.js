@@ -9,7 +9,7 @@ const FoodReview = ({ review }) => {
     const rate = rating;
 
     return (
-        <div data-aos="fade-up">
+        <div >
             <div className="mb-3 w-75 mx-auto">
                 <div className="row g-0 shadow p-3 mb-5 bg-body rounded">
                     <div className="col-md-2">

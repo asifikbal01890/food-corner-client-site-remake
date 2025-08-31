@@ -12,7 +12,8 @@ const Banner = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
-                    <img className='vh-100 position-relative d-block' src="https://smartslider3.com/wp-content/uploads/slider/cache/ece3c866a4834c1005e5bbfb1b5dc27d/cookingslide1.webp" alt="..." />
+                    {/* <img className=' position-relative d-block w-xl-100 ' src="https://smartslider3.com/wp-content/uploads/slider/cache/ece3c866a4834c1005e5bbfb1b5dc27d/cookingslide1.webp" alt="..." /> */}
+                    <img className=' position-relative d-block w-100 d-md-hide h-75 ' src="https://smartslider3.com/wp-content/uploads/slider/cache/ece3c866a4834c1005e5bbfb1b5dc27d/cookingslide1.webp" alt="..." />
                     <div className='absolute'>
                         <div className=''>
                             <h2 className='d-none d-lg-flex f-corner'>Make the Perfect Creamy</h2>
@@ -44,7 +45,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
-                    <img className='position-relative d-block vh-100' src="https://smartslider3.com/wp-content/uploads/slider/cache/1b12c106ed43fc5a46f6f1276be0d570/cookingslide2.webp" alt="..." />
+                    <img className='position-relative d-block w-100' src="https://smartslider3.com/wp-content/uploads/slider/cache/1b12c106ed43fc5a46f6f1276be0d570/cookingslide2.webp" alt="..." />
                     <div className='absolute'>
                         <div className=''>
                             <h2 className='d-none d-lg-flex f-corner'>Basic Formulas for Marking</h2>
@@ -76,7 +77,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className='position-relative d-block pe-more vh-100' src="https://smartslider3.com/wp-content/uploads/slider/cache/e37956be8f89fc62f048473513f3a928/cookingslide3.webp" alt="..." />
+                    <img className='position-relative d-block pe-more w-100' src="https://smartslider3.com/wp-content/uploads/slider/cache/e37956be8f89fc62f048473513f3a928/cookingslide3.webp" alt="..." />
                     <div className='absolute'>
                         <div className=''>
                             <h2 className='d-none d-lg-flex f-corner'><strong className='pe-3 text-orange'>Breakfast Recipes</strong>You</h2>

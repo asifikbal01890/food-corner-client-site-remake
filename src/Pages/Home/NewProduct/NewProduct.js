@@ -4,7 +4,7 @@ import productImg from '../../../img/newProduct.png';
 
 const NewProduct = () => {
     return (
-        <div data-aos="fade-right" className=' bg-section'>
+        <div className=' bg-section'>
             <div className="card mb-3 py-5 border-0 container bg-transparent">
                 <div className="row g-0 align-items-center">
                     <div className="col-md-6">
@@ -15,7 +15,7 @@ const NewProduct = () => {
                             <Link to={'/foods'}><button className='btn-orange text-white px-4 py-2 rounded-3 fw-semibold fs-5'>More Info...</button></Link>
                         </div>
                     </div>
-                    <div data-aos="zoom-in-up" className="col-md-6">
+                    <div className="col-md-6">
                         <img src={productImg} className="img-fluid rounded-start" alt="..." />
                     </div>
                 </div>

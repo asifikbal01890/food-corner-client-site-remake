@@ -140,8 +140,8 @@
     .menuToggler {
         display: block;
         position: fixed;
-        top: 50px;
-        right: 25px;
+        top: 20px;
+        right:25px;
         z-index: 50;
         color: rgb(255, 97, 5);
 
