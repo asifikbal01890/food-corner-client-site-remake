@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         children: [
             {
               path: "/",
-              loader: () => fetch('https://food-corner-server-site-remake.vercel.app/foodsLimit'),
+              loader: () => fetch('https://food-corner-server-site-remake.vercel.app/foods'),
               element: <Home></Home>
             },
             {
